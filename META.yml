@@ -1,8 +1,8 @@
 ---
 name: HTML-Latemp-NavLinks-GenHtml
-version: 0.1.6
+version: 0.1.7
 author:
-  - Shlomi Fish <shlomif@iglu.org.il>
+  - 'Shlomi Fish <shlomif@iglu.org.il>'
 abstract: |-
   A module to generate the HTML of the 
   navigation links.
@@ -16,9 +16,12 @@ requires:
 provides:
   HTML::Latemp::NavLinks::GenHtml:
     file: lib/HTML/Latemp/NavLinks/GenHtml.pm
-    version: 0.1.6
+    version: 0.1.7
   HTML::Latemp::NavLinks::GenHtml::ArrowImages:
     file: lib/HTML/Latemp/NavLinks/GenHtml/ArrowImages.pm
   HTML::Latemp::NavLinks::GenHtml::Text:
     file: lib/HTML/Latemp/NavLinks/GenHtml/Text.pm
-generated_by: Module::Build version 0.2703
+generated_by: Module::Build version 0.2805
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
