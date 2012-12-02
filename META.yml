@@ -1,27 +1,31 @@
 ---
-name: HTML-Latemp-NavLinks-GenHtml
-version: 0.1.8
+abstract: 'A module to generate the HTML of the'
 author:
   - 'Shlomi Fish <shlomif@iglu.org.il>'
-abstract: |-
-  A module to generate the HTML of the 
-  navigation links.
+build_requires: {}
+configure_requires:
+  Module::Build: 0.39
+dynamic_config: 1
+generated_by: 'Module::Build version 0.3901, CPAN::Meta::Converter version 2.120921'
 license: bsd
-resources:
-  license: http://www.opensource.org/licenses/bsd-license.php
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: HTML-Latemp-NavLinks-GenHtml
+provides:
+  HTML::Latemp::NavLinks::GenHtml:
+    file: lib/HTML/Latemp/NavLinks/GenHtml.pm
+    version: v0.2.0
+  HTML::Latemp::NavLinks::GenHtml::ArrowImages:
+    file: lib/HTML/Latemp/NavLinks/GenHtml/ArrowImages.pm
+    version: 0
+  HTML::Latemp::NavLinks::GenHtml::Text:
+    file: lib/HTML/Latemp/NavLinks/GenHtml/Text.pm
+    version: 0
 requires:
   Class::Accessor: 0
   Template: 0
   Test::More: 0
-provides:
-  HTML::Latemp::NavLinks::GenHtml:
-    file: lib/HTML/Latemp/NavLinks/GenHtml.pm
-    version: 0.1.8
-  HTML::Latemp::NavLinks::GenHtml::ArrowImages:
-    file: lib/HTML/Latemp/NavLinks/GenHtml/ArrowImages.pm
-  HTML::Latemp::NavLinks::GenHtml::Text:
-    file: lib/HTML/Latemp/NavLinks/GenHtml/Text.pm
-generated_by: Module::Build version 0.2805
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.2.html
-  version: 1.2
+resources:
+  license: http://www.opensource.org/licenses/bsd-license.php
+version: v0.2.0

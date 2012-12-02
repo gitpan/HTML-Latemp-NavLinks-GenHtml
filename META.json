@@ -1,0 +1,51 @@
+{
+   "abstract" : "A module to generate the HTML of the",
+   "author" : [
+      "Shlomi Fish <shlomif@iglu.org.il>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.3901, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "bsd"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "HTML-Latemp-NavLinks-GenHtml",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.39"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Class::Accessor" : "0",
+            "Template" : "0",
+            "Test::More" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "HTML::Latemp::NavLinks::GenHtml" : {
+         "file" : "lib/HTML/Latemp/NavLinks/GenHtml.pm",
+         "version" : "v0.2.0"
+      },
+      "HTML::Latemp::NavLinks::GenHtml::ArrowImages" : {
+         "file" : "lib/HTML/Latemp/NavLinks/GenHtml/ArrowImages.pm",
+         "version" : 0
+      },
+      "HTML::Latemp::NavLinks::GenHtml::Text" : {
+         "file" : "lib/HTML/Latemp/NavLinks/GenHtml/Text.pm",
+         "version" : 0
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://www.opensource.org/licenses/bsd-license.php"
+      ]
+   },
+   "version" : "v0.2.0"
+}
