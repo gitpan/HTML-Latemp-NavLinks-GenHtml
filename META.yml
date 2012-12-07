@@ -2,7 +2,9 @@
 abstract: 'A module to generate the HTML of the'
 author:
   - 'Shlomi Fish <shlomif@iglu.org.il>'
-build_requires: {}
+build_requires:
+  Test::Differences: 0
+  Test::More: 0
 configure_requires:
   Module::Build: 0.39
 dynamic_config: 1
@@ -15,7 +17,7 @@ name: HTML-Latemp-NavLinks-GenHtml
 provides:
   HTML::Latemp::NavLinks::GenHtml:
     file: lib/HTML/Latemp/NavLinks/GenHtml.pm
-    version: v0.2.0
+    version: v0.2.1
   HTML::Latemp::NavLinks::GenHtml::ArrowImages:
     file: lib/HTML/Latemp/NavLinks/GenHtml/ArrowImages.pm
     version: 0
@@ -25,7 +27,8 @@ provides:
 requires:
   Class::Accessor: 0
   Template: 0
-  Test::More: 0
+  strict: 0
+  warnings: 0
 resources:
   license: http://www.opensource.org/licenses/bsd-license.php
-version: v0.2.0
+version: v0.2.1
