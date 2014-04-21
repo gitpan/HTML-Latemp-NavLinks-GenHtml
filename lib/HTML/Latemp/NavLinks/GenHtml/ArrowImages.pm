@@ -3,6 +3,8 @@ package HTML::Latemp::NavLinks::GenHtml::ArrowImages;
 use strict;
 use warnings;
 
+our $VERSION = '0.2.3';
+
 use vars qw($nav_buttons_html);
 
 use parent 'HTML::Latemp::NavLinks::GenHtml';
@@ -30,7 +32,7 @@ HTML::Latemp::NavLinks::GenHtml::ArrowImages - A class to generate the image-bas
 
 =head1 SYNOPSIS
 
-    my $obj = HTML::Latemp::NavLinks::GenHtml::Text->new(
+    my $obj = HTML::Latemp::NavLinks::GenHtmlArrowImages->new(
         ext => '.png', # Default.
         root => $path_to_root,
         nav_links_obj => $links,

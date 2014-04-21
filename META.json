@@ -4,7 +4,7 @@
       "Shlomi Fish <shlomif@iglu.org.il>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4007, CPAN::Meta::Converter version 2.132830",
+   "generated_by" : "Module::Build version 0.4205",
    "license" : [
       "mit"
    ],
@@ -39,13 +39,15 @@
    "provides" : {
       "HTML::Latemp::NavLinks::GenHtml" : {
          "file" : "lib/HTML/Latemp/NavLinks/GenHtml.pm",
-         "version" : "v0.2.2"
+         "version" : "v0.2.3"
       },
       "HTML::Latemp::NavLinks::GenHtml::ArrowImages" : {
-         "file" : "lib/HTML/Latemp/NavLinks/GenHtml/ArrowImages.pm"
+         "file" : "lib/HTML/Latemp/NavLinks/GenHtml/ArrowImages.pm",
+         "version" : "v0.2.3"
       },
       "HTML::Latemp::NavLinks::GenHtml::Text" : {
-         "file" : "lib/HTML/Latemp/NavLinks/GenHtml/Text.pm"
+         "file" : "lib/HTML/Latemp/NavLinks/GenHtml/Text.pm",
+         "version" : "v0.2.3"
       }
    },
    "release_status" : "stable",
@@ -54,5 +56,5 @@
          "http://www.opensource.org/licenses/mit-license.php"
       ]
    },
-   "version" : "v0.2.2"
+   "version" : "v0.2.3"
 }
